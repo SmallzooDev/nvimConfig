@@ -33,7 +33,24 @@ return packer.startup(function(use)
 
   use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
+  use("christoomey/vim-tmux-navigator")
+
   use("arcticicestudio/nord-vim") -- preferred colorscheme
+
+  use("szw/vim-maximizer")
+
+  use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
+  -- ys + character + quotes / ex -> ys + w + "
+  -- ds + character + quotes 
+  -- cs + character + former quotes + next quotes
+
+  use("inkarkat/vim-ReplaceWithRegister") -- replace with register contents using motion (gr + motion)
+
+  -- commenting with gc
+  use("numToStr/Comment.nvim")
+
+  -- file explorer
+  use("nvim-tree/nvim-tree.lua")
 
   if packer_bootstrap then
     require("packer").sync()
