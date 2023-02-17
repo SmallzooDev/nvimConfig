@@ -4,4 +4,5 @@ require("smallzooDev.core.keymaps")
 require("smallzooDev.core.colorcheme")
 require("smallzooDev.plugins.comment")
 require("smallzooDev.plugins.nvim-tree")
+require("smallzooDev.plugins.lualine")
 
