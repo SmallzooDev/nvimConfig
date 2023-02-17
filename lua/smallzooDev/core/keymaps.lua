@@ -26,3 +26,5 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- keymaps for plugins
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
