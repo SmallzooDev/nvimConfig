@@ -6,4 +6,6 @@ require("smallzooDev.plugins.comment")
 require("smallzooDev.plugins.nvim-tree")
 require("smallzooDev.plugins.lualine")
 require("smallzooDev.plugins.telescope")
+require("smallzooDev.plugins.nvim-cmp")
+require("smallzooDev.plugins.lsp.mason")
 
