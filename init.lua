@@ -8,4 +8,6 @@ require("smallzooDev.plugins.lualine")
 require("smallzooDev.plugins.telescope")
 require("smallzooDev.plugins.nvim-cmp")
 require("smallzooDev.plugins.lsp.mason")
+require("smallzooDev.plugins.lsp.lspsaga")
+require("smallzooDev.plugins.lsp.lspconfig")
 
