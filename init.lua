@@ -10,4 +10,6 @@ require("smallzooDev.plugins.nvim-cmp")
 require("smallzooDev.plugins.lsp.mason")
 require("smallzooDev.plugins.lsp.lspsaga")
 require("smallzooDev.plugins.lsp.lspconfig")
-
+require("smallzooDev.plugins.autopairs")
+require("smallzooDev.plugins.treesitter")
+require("smallzooDev.plugins.gitsigns")
