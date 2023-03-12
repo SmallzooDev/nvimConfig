@@ -113,7 +113,31 @@ return packer.startup(function(use)
   -- git integration
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
-  use("vimwiki/vimwiki")
+
+  use({
+        "vimwiki/vimwiki",
+        config = function()
+          vim.g.vimwiki_list = {
+            {
+              path = '~/wiki/Brchtsgdn.github.io/_wiki',
+              syntax = 'markdown',
+              ext  = '.md',
+            },
+            {
+              path = '~/wiki/private_wiki',
+              syntax = 'markdown',
+              ext  = '.md',
+            },
+
+
+        }
+        vim.g.vimwiki_ext2syntax = {
+          ['.md'] = 'markdown',
+          ['.markdown'] = 'markdown',
+          ['.mdown'] = 'markdown',
+        }
+      end
+    })
 
 
   if packer_bootstrap then
