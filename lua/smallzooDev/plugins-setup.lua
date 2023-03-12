@@ -40,6 +40,8 @@ return packer.startup(function(use)
 
   use("szw/vim-maximizer")
 
+  use("goolord/alpha-nvim")
+
   use("tpope/vim-surround") -- add, delete, change surroundings (it's awesome)
   -- ys + character + quotes / ex -> ys + w + "
   -- ds + character + quotes 
@@ -112,6 +114,7 @@ return packer.startup(function(use)
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
   use("vimwiki/vimwiki")
+
 
   if packer_bootstrap then
     require("packer").sync()
