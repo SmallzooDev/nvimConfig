@@ -117,9 +117,10 @@ return packer.startup(function(use)
   use({
         "vimwiki/vimwiki",
         config = function()
+          vim.g.vimwiki_conceallevel = 0
           vim.g.vimwiki_list = {
             {
-              path = '~/wiki/Brchtsgdn.github.io/_wiki',
+              path = '~/wiki/SmallzooDev.github.io/_wiki',
               syntax = 'markdown',
               ext  = '.md',
             },

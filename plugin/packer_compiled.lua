@@ -242,7 +242,7 @@ _G.packer_plugins = {
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   vimwiki = {
-    config = { "\27LJ\2\n‰\2\0\0\3\0\a\0\r6\0\0\0009\0\1\0004\1\3\0005\2\3\0>\2\1\0015\2\4\0>\2\2\1=\1\2\0006\0\0\0009\0\1\0005\1\6\0=\1\5\0K\0\1\0\1\0\3\b.md\rmarkdown\v.mdown\rmarkdown\14.markdown\rmarkdown\23vimwiki_ext2syntax\1\0\3\vsyntax\rmarkdown\tpath\24~/wiki/private_wiki\bext\b.md\1\0\3\vsyntax\rmarkdown\tpath%~/wiki/Brchtsgdn.github.io/_wiki\bext\b.md\17vimwiki_list\6g\bvim\0" },
+    config = { "\27LJ\2\n°\2\0\0\3\0\b\0\0176\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0004\1\3\0005\2\4\0>\2\1\0015\2\5\0>\2\2\1=\1\3\0006\0\0\0009\0\1\0005\1\a\0=\1\6\0K\0\1\0\1\0\3\14.markdown\rmarkdown\v.mdown\rmarkdown\b.md\rmarkdown\23vimwiki_ext2syntax\1\0\3\bext\b.md\tpath\24~/wiki/private_wiki\vsyntax\rmarkdown\1\0\3\bext\b.md\tpath'~/wiki/SmallzooDev.github.io/_wiki\vsyntax\rmarkdown\17vimwiki_list\25vimwiki_conceallevel\6g\bvim\0" },
     loaded = true,
     path = "/Users/joonkyu_kang/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
@@ -252,7 +252,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: vimwiki
 time([[Config for vimwiki]], true)
-try_loadstring("\27LJ\2\n‰\2\0\0\3\0\a\0\r6\0\0\0009\0\1\0004\1\3\0005\2\3\0>\2\1\0015\2\4\0>\2\2\1=\1\2\0006\0\0\0009\0\1\0005\1\6\0=\1\5\0K\0\1\0\1\0\3\b.md\rmarkdown\v.mdown\rmarkdown\14.markdown\rmarkdown\23vimwiki_ext2syntax\1\0\3\vsyntax\rmarkdown\tpath\24~/wiki/private_wiki\bext\b.md\1\0\3\vsyntax\rmarkdown\tpath%~/wiki/Brchtsgdn.github.io/_wiki\bext\b.md\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
+try_loadstring("\27LJ\2\n°\2\0\0\3\0\b\0\0176\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0004\1\3\0005\2\4\0>\2\1\0015\2\5\0>\2\2\1=\1\3\0006\0\0\0009\0\1\0005\1\a\0=\1\6\0K\0\1\0\1\0\3\14.markdown\rmarkdown\v.mdown\rmarkdown\b.md\rmarkdown\23vimwiki_ext2syntax\1\0\3\bext\b.md\tpath\24~/wiki/private_wiki\vsyntax\rmarkdown\1\0\3\bext\b.md\tpath'~/wiki/SmallzooDev.github.io/_wiki\vsyntax\rmarkdown\17vimwiki_list\25vimwiki_conceallevel\6g\bvim\0", "config", "vimwiki")
 time([[Config for vimwiki]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
