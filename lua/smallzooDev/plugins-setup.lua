@@ -120,22 +120,13 @@ return packer.startup(function(use)
           vim.g.vimwiki_conceallevel = 0
           vim.g.vimwiki_list = {
             {
-              path = '~/wiki/SmallzooDev.github.io/_wiki',
-              syntax = 'markdown',
+              path = '~/wiki/SmallzooDev.github.io/_wiki/',
               ext  = '.md',
             },
             {
               path = '~/wiki/private_wiki',
-              syntax = 'markdown',
               ext  = '.md',
             },
-
-
-        }
-        vim.g.vimwiki_ext2syntax = {
-          ['.md'] = 'markdown',
-          ['.markdown'] = 'markdown',
-          ['.mdown'] = 'markdown',
         }
       end
     })
