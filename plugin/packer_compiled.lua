@@ -235,6 +235,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/joonkyu_kang/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  vimwiki = {
+    loaded = true,
+    path = "/Users/joonkyu_kang/.local/share/nvim/site/pack/packer/start/vimwiki",
+    url = "https://github.com/vimwiki/vimwiki"
   }
 }
 
