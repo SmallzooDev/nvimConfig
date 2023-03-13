@@ -120,11 +120,11 @@ return packer.startup(function(use)
           vim.g.vimwiki_conceallevel = 0
           vim.g.vimwiki_list = {
             {
-              path = '~/wiki/SmallzooDev.github.io/_wiki/',
+              path = '/Users/joonkyu_kang/wiki/SmallzooDev.github.io/_wiki',
               ext  = '.md',
             },
             {
-              path = '~/wiki/private_wiki',
+              path = '/Users/joonkyu_kang/wiki/private_wiki',
               ext  = '.md',
             },
         }

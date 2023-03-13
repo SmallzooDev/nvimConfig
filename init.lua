@@ -1,4 +1,5 @@
 require("smallzooDev.plugins-setup") -- 가장 첫줄에 있어야 함
+require("smallzooDev.cmd.vimwik-command") -- 가장 첫줄에 있어야 함
 require("smallzooDev.plugins.vimwiki")
 require("smallzooDev.plugins.alpha")
 require("smallzooDev.core.options")
