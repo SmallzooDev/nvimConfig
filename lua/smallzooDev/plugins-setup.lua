@@ -97,6 +97,9 @@ return packer.startup(function(use)
   use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
   use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 
+  -- nvim copilot
+  use("github/copilot.vim")
+
   -- treesitter configuration
   use({
     "nvim-treesitter/nvim-treesitter",
@@ -118,6 +121,7 @@ return packer.startup(function(use)
         "vimwiki/vimwiki",
         config = function()
           vim.g.vimwiki_conceallevel = 0
+          vim.g.vimwiki_global_ext = 0
           vim.g.vimwiki_list = {
             {
               path = '/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki',
