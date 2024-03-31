@@ -122,6 +122,11 @@ return packer.startup(function(use)
         config = function()
           vim.g.vimwiki_conceallevel = 0
           vim.g.vimwiki_global_ext = 0
+          vim.g.vimwiki_key_mappings = {
+                table_mappings = 0,
+            }
+          vim.keymap.set('n', '<leader>nl', '<Plug>VimwikiNextLink', { silent = true }) -- For Tab
+          vim.keymap.set('n', '<leader>pl', '<Plug>VimwikiPrevLink', { silent = true }) -- For STab
           vim.g.vimwiki_list = {
             {
               path = '/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki',

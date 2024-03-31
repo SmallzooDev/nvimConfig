@@ -247,7 +247,7 @@ _G.packer_plugins = {
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
   vimwiki = {
-    config = { "\27LJ\2\nŸ\2\0\0\3\0\a\0\0176\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\3\0006\0\0\0009\0\1\0004\1\3\0005\2\5\0>\2\1\0015\2\6\0>\2\2\1=\1\4\0K\0\1\0\1\0\2\tpath*/Users/joonkyu_kang/wiki/private_wiki\bext\b.md\1\0\4\fstyntax\rmarkdown\tpath;/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki\bext\b.md\nindex\thome\17vimwiki_list\23vimwiki_global_ext\25vimwiki_conceallevel\6g\bvim\0" },
+    config = { "\27LJ\2\ný\3\0\0\6\0\18\0%6\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\3\0006\0\0\0009\0\1\0005\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0'\2\b\0'\3\t\0'\4\n\0005\5\v\0B\0\5\0016\0\0\0009\0\6\0009\0\a\0'\2\b\0'\3\f\0'\4\r\0005\5\14\0B\0\5\0016\0\0\0009\0\1\0004\1\3\0005\2\16\0>\2\1\0015\2\17\0>\2\2\1=\1\15\0K\0\1\0\1\0\2\bext\b.md\tpath*/Users/joonkyu_kang/wiki/private_wiki\1\0\4\fstyntax\rmarkdown\nindex\thome\bext\b.md\tpath;/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki\17vimwiki_list\1\0\1\vsilent\2\26<Plug>VimwikiPrevLink\15<leader>pl\1\0\1\vsilent\2\26<Plug>VimwikiNextLink\15<leader>nl\6n\bset\vkeymap\1\0\1\19table_mappings\3\0\25vimwiki_key_mappings\23vimwiki_global_ext\25vimwiki_conceallevel\6g\bvim\0" },
     loaded = true,
     path = "/Users/joonkyu_kang/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
@@ -257,7 +257,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: vimwiki
 time([[Config for vimwiki]], true)
-try_loadstring("\27LJ\2\nŸ\2\0\0\3\0\a\0\0176\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\3\0006\0\0\0009\0\1\0004\1\3\0005\2\5\0>\2\1\0015\2\6\0>\2\2\1=\1\4\0K\0\1\0\1\0\2\tpath*/Users/joonkyu_kang/wiki/private_wiki\bext\b.md\1\0\4\fstyntax\rmarkdown\tpath;/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki\bext\b.md\nindex\thome\17vimwiki_list\23vimwiki_global_ext\25vimwiki_conceallevel\6g\bvim\0", "config", "vimwiki")
+try_loadstring("\27LJ\2\ný\3\0\0\6\0\18\0%6\0\0\0009\0\1\0)\1\0\0=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\3\0006\0\0\0009\0\1\0005\1\5\0=\1\4\0006\0\0\0009\0\6\0009\0\a\0'\2\b\0'\3\t\0'\4\n\0005\5\v\0B\0\5\0016\0\0\0009\0\6\0009\0\a\0'\2\b\0'\3\f\0'\4\r\0005\5\14\0B\0\5\0016\0\0\0009\0\1\0004\1\3\0005\2\16\0>\2\1\0015\2\17\0>\2\2\1=\1\15\0K\0\1\0\1\0\2\bext\b.md\tpath*/Users/joonkyu_kang/wiki/private_wiki\1\0\4\fstyntax\rmarkdown\nindex\thome\bext\b.md\tpath;/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki\17vimwiki_list\1\0\1\vsilent\2\26<Plug>VimwikiPrevLink\15<leader>pl\1\0\1\vsilent\2\26<Plug>VimwikiNextLink\15<leader>nl\6n\bset\vkeymap\1\0\1\19table_mappings\3\0\25vimwiki_key_mappings\23vimwiki_global_ext\25vimwiki_conceallevel\6g\bvim\0", "config", "vimwiki")
 time([[Config for vimwiki]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
