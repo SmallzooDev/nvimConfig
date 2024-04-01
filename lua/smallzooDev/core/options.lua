@@ -4,9 +4,9 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
 
--- tabs & indentation : 들여쓰기, 러스트 목적이므로 4
-opt.tabstop = 4
-opt.shiftwidth = 4
+-- tabs & indentation : 들여쓰기
+opt.tabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
