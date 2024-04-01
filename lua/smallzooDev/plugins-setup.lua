@@ -129,13 +129,13 @@ return packer.startup(function(use)
           vim.keymap.set('n', '<leader>pl', '<Plug>VimwikiPrevLink', { silent = true }) -- For STab
           vim.g.vimwiki_list = {
             {
-              path = '/Users/joonkyu_kang/wiki/SmallzooDevWiki/content/_wiki',
+              path = '/Users/jk.kang/wiki/SmallzooDevWiki/content/_wiki',
               ext  = '.md',
               styntax = 'markdown',
               index = 'home'
             },
             {
-              path = '/Users/joonkyu_kang/wiki/private_wiki',
+              path = '/Users/jk.kang/wiki/private_wiki',
               ext  = '.md',
             },
         }
